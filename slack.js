@@ -9,7 +9,7 @@ const server = app.listen(9000);
 
 const io = socketio(server);
 
-
+// from github I modified
 
 io.on('connect', (socket) => {
     // build an array to send back with img and endpoint for each NS
